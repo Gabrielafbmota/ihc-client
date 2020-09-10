@@ -23,13 +23,13 @@ function Home() {
 
     if (eventKey === "home") {
       setHome(true);
-    } else if (eventKey === "flyonthewall") {
+    } else if (eventKey === "direta") {
       setDireta(true);
-    } else if (eventKey === "monitoramento") {
+    } else if (eventKey === "indireta") {
       setIndireta(true);
-    } else if (eventKey === "shadowing") {
+    } else if (eventKey === "rapidaEsuja") {
       setRapidaESuja(true);
-    } else if (eventKey === "heuristica") {
+    } else if (eventKey === "emVozAlta") {
       setVozAlta(true);
     } else {
       setHome(false);
@@ -48,23 +48,23 @@ function Home() {
           </ItemLink>
         </Item>
         <Item>
-          <ItemLink eventKey="flyonthewall" onSelect={handleActive}>
-            Mosca na parede
+          <ItemLink eventKey="direta" onSelect={handleActive}>
+            Observação Direta
           </ItemLink>
         </Item>
         <Item>
-          <ItemLink eventKey="monitoramento" onSelect={handleActive}>
-            Monitoramento online
+          <ItemLink eventKey="indireta" onSelect={handleActive}>
+             Observação Indireta
           </ItemLink>
         </Item>
         <Item>
-          <ItemLink eventKey="shadowing" onSelect={handleActive}>
-            Sombra
+          <ItemLink eventKey="rapidaEsuja" onSelect={handleActive}>
+            Rápida e Suja
           </ItemLink>
         </Item>
         <Item>
-          <ItemLink eventKey="heuristica" onSelect={handleActive}>
-            Avaliação heurística{" "}
+          <ItemLink eventKey="emVozAlta" onSelect={handleActive}>
+            Em Voz Alta
           </ItemLink>
         </Item>
       </Navs>
