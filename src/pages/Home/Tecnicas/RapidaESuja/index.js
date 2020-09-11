@@ -1,15 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-import { Container } from './styles';
 import Header from '../../../../components/Header'
+import { Container } from './styles'
 
 function RapidaESuja() {
-  return(
+  return (
     <Container>
       <Header title="Rápida e Suja" />
     </Container>
 
-  );
+  )
 }
 
-export default RapidaESuja;
+export default RapidaESuja

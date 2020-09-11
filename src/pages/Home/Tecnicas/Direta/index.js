@@ -1,16 +1,15 @@
-import React from 'react';
-
-import { Container } from './styles';
+import React from 'react'
 
 import Header from '../../../../components/Header'
+import { Container } from './styles'
 
 function Direta() {
-  return(
+  return (
     <Container>
       <Header title="Observação Direta" />
     </Container>
 
-  );
+  )
 }
 
-export default Direta;
+export default Direta

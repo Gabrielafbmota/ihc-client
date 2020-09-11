@@ -24,23 +24,79 @@
     ],
     "parser": "babel-eslint",
     "rules": {
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-        "class-methods-use-this": ["off", { "exceptMethods": ["no this"] }],
-        "semi": ["error", "never"],
+        "react/prop-types": 0,
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "class-methods-use-this": [
+            "off",
+            {
+                "exceptMethods": [
+                    "no this"
+                ]
+            }
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
         "import/prefer-default-export": "off",
-        "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
-        "no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
-        "arrow-parens": ["error", "as-needed"],
-        "max-len": ["error", { "code": 120 }],
-        "react/jsx-props-no-spreading": "off",
-        "no-console": "error",
-        "import/no-cycle": [2, { "maxDepth": 1 }],
-        "object-curly-newline": ["error", {
-            "ObjectExpression": { "multiline": true, "minProperties": 6 },
-            "ObjectPattern": { "multiline": true, "minProperties": 6 },
-            "ImportDeclaration": { "multiline": true, "minProperties": 6 },
-            "ExportDeclaration": { "multiline": true, "minProperties": 6 }
-        }],
+        "no-unused-vars": [
+            "error",
+            {
+                "argsIgnorePattern": "next"
+            }
+        ],
+        "no-unused-expressions": [
+            "error",
+            {
+                "allowShortCircuit": true,
+                "allowTernary": true
+            }
+        ],
+        "arrow-parens": [
+            "error",
+            "as-needed"
+        ],
+        "max-len": [
+            "error",
+            {
+                "code": 300
+            }
+        ],
+        "import/no-cycle": [
+            2,
+            {
+                "maxDepth": 1
+            }
+        ],
+        "object-curly-newline": [
+            "error",
+            {
+                "ObjectExpression": {
+                    "multiline": true,
+                    "minProperties": 6
+                },
+                "ObjectPattern": {
+                    "multiline": true,
+                    "minProperties": 6
+                },
+                "ImportDeclaration": {
+                    "multiline": true,
+                    "minProperties": 6
+                },
+                "ExportDeclaration": {
+                    "multiline": true,
+                    "minProperties": 6
+                }
+            }
+        ],
         "import-helpers/order-imports": [
             "warn",
             {
@@ -61,7 +117,6 @@
                 }
             }
         ]
-
     },
     "settings": {
         "import/resolver": {

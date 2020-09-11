@@ -1,15 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-import { Container } from './styles';
 import Header from '../../../../components/Header'
+import { Container } from './styles'
 
 function VozAlta() {
-  return(
+  return (
     <Container>
       <Header title="Em Voz Alta" />
     </Container>
 
-  );
+  )
 }
 
-export default VozAlta;
+export default VozAlta
