@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import ChangeLanguage from '../../components/ChangeLanguage'
+import { translate } from '../../locales'
 import Main from './Main'
 import { Container, Navs, ItemLink, Item } from './styles'
 import Direta from './Tecnicas/Direta'
@@ -40,30 +42,31 @@ function Home() {
   }
   return (
     <Container>
+      <ChangeLanguage />
       <Navs justify variant="tabs" defaultActiveKey="home">
         <Item>
           <ItemLink eventKey="home" onSelect={handleActive}>
-            Home
+            {translate('menu.home')}
           </ItemLink>
         </Item>
         <Item>
           <ItemLink eventKey="direta" onSelect={handleActive}>
-            Observação Direta
+            {translate('menu.direta')}
           </ItemLink>
         </Item>
         <Item>
           <ItemLink eventKey="indireta" onSelect={handleActive}>
-            Observação Indireta
+            {translate('menu.indireta')}
           </ItemLink>
         </Item>
         <Item>
           <ItemLink eventKey="rapidaEsuja" onSelect={handleActive}>
-            Rápida e Suja
+            {translate('menu.rapidaESuja')}
           </ItemLink>
         </Item>
         <Item>
           <ItemLink eventKey="emVozAlta" onSelect={handleActive}>
-            Em Voz Alta
+            {translate('menu.vozAlta')}
           </ItemLink>
         </Item>
       </Navs>

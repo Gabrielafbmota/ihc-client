@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
 
+import { translate } from '../../locales'
 import { Container, Title } from './styles'
 
 function Header({ title, number }) {
@@ -11,7 +12,8 @@ function Header({ title, number }) {
           {
             number === 1 ? <Title className="justify-content-md-center">{title}</Title> : (
               <Title className="justify-content-md-center">
-                Técnica de Observação do Usuário:
+                {translate('menu.tecnicas')}
+                {': '}
                 {title}
               </Title>
             )

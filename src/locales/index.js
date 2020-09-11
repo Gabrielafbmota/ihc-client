@@ -3,8 +3,7 @@ import { useSelector } from 'react-redux'
 
 import i18n from 'i18next'
 
-import { selectors } from '~/store/modules/config/actions'
-
+import { selectors } from '../store/modules/config/actions'
 import enUS from './en-US'
 import ptBR from './pt-BR'
 
