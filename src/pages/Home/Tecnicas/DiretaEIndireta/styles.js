@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { colors } from '../../../../themes'
-import { Media } from 'reactstrap'
+import { Media, Col, Row  } from 'reactstrap'
 
 export const Container = styled.div`
   padding-left: 300px;
@@ -19,7 +19,13 @@ export const Text = styled.p`
   color: ${colors.PRIMARY};
 `
 export const Img = styled(Media)`
-  width: 70%;
-  heigth: 70%;
+  width: 100%;
+  heigth: 100%;
   border-radius: 10px;
+`
+export const ImgContent = styled(Col)``
+export const ImgContainer = styled(Row)`
+  padding-top: 30px;
+  position: relative;
+  left: -15%;
 `
