@@ -2,8 +2,12 @@ import React from 'react'
 
 import Header from '../../../../components/Header'
 import { translate } from '../../../../locales'
-import { Container, Card, Text } from './styles'
-
+import { Container, Card, Text, Img } from './styles'
+import Image01 from  '../../../../images/01.png'
+import Image02 from  '../../../../images/02.png'
+import Image03 from  '../../../../images/03.png'
+import Image04 from  '../../../../images/04.png'
+import Image05 from  '../../../../images/05.png'
 function DiretaEIndireta() {
   return (
     <>
@@ -26,6 +30,31 @@ function DiretaEIndireta() {
           <Text>{translate('pages.Techs.diretaindireta.p14')}</Text>
           <Text>{translate('pages.Techs.diretaindireta.p15')}</Text>
         </Card>
+        <Img>
+          <Img left top href="">
+            <Img object src={Image01} alt={translate('menu.diretaEIndireta')} />
+          </Img>
+        </Img>
+        <Img>
+          <Img left top href="">
+            <Img object src={Image02} alt={translate('menu.diretaEIndireta')} />
+          </Img>
+        </Img>
+        <Img>
+          <Img left top href="">
+            <Img object src={Image03} alt={translate('menu.diretaEIndireta')} />
+          </Img>
+        </Img>
+        <Img>
+          <Img left top href="">
+            <Img object src={Image04} alt={translate('menu.diretaEIndireta')} />
+          </Img>
+        </Img>
+        <Img>
+          <Img left top href="">
+            <Img object src={Image05} alt={translate('menu.diretaEIndireta')} />
+          </Img>
+        </Img>
       </Container>
     </>
 

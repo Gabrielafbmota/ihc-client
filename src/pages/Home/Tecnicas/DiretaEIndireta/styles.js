@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 import { colors } from '../../../../themes'
+import { Media } from 'reactstrap'
+
 export const Container = styled.div`
   padding-left: 300px;
 `
@@ -14,4 +16,10 @@ export const Card = styled.div`
 export const Text = styled.p`
   font-size: 18px;
   padding: 10px 15px 0px 15px;
+  color: ${colors.PRIMARY};
+`
+export const Img = styled(Media)`
+  width: 70%;
+  heigth: 70%;
+  border-radius: 10px;
 `
