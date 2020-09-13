@@ -6,9 +6,11 @@ import { Container } from './styles'
 
 function VozAlta() {
   return (
-    <Container>
+    <>
       <Header title={translate('menu.vozAlta')} />
-    </Container>
+      <Container>
+      </Container>
+    </>
 
   )
 }
