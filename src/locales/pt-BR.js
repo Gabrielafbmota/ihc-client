@@ -8,8 +8,14 @@ export default {
     diretaEIndireta: 'Direta e Indireta',
     vozAlta: 'Em Voz Alta',
     rapidaESuja: 'Rápida e Suja',
+    referencias: "Referências"
   },
   pages:{
+    Referencias:{
+      rf01: "https://www.passeidireto.com/arquivo/2818147/design-e-avaliacao-de-interfaces-humano-computador",
+      rf02: "http://www.dainf.ct.utfpr.edu.br/~pelisson/ihm/capitulo11.ppt",
+      rf03: "https://docente.ifrn.edu.br/daniellefreitas/disciplinas/ihc/aulas/avaliacaoempirica.pdf",
+    },
     Techs:{
       diretaindireta:{
         p1: "Usuários individualmente podem ser observados diretamente, fazendo seu trabalho normal ou tarefas específicas para a situação de observação.  O observador, então, toma notas de comportamentos interessantes ou registra seu comportamento de outras maneiras, por exemplo, medindo o tempo de realização de sequências de ações.",
@@ -28,6 +34,28 @@ export default {
         p14: "Um método de registro bastante popular para captar informações de uso de versões mais completas de protótipos de sistemas computacionais é o logging.  O método não requer a presença do pesquisador e parte do processo de análise pode ser automatizado; não é um método invasivo, embora possa levantar questões éticas: os usuários devem ser informados desse registro.  Já existem várias ferramentas para se fazer o logging de software.  Laboratório s de usabilidade costumam fazer uso dessas ferramentas.  Há ferramentas que registram cada tecla que o usuário pressiona e o tempo exato do evento.  Outras registram a interação entre o usuário e o sistema, de forma que o observador pode vê-la exatamente como ocorreu.  Sistemas de playback (Neal e Simons, 1983, apud Preece et al., 1994) possibilitam que o observador veja na tela de seu monitor colocado em sua sala, as entradas do usuário e as respostas do sistema. O observador pode, ainda, adicionar comentários para cada operação do usuário.",
         p15: "A escolha do método de observação a ser utilizado em geral é um compromisso entre o tempo a ser gasto e a profundidade da análise.  Um feedback informal sobre determinadas tarefas mediadas pelo sistema em design pode ser obtido em poucos dias, através de observação direta ou indireta.  Para um entendimento mais detalhado das ações do usuário, observação indireta combinando gravação de vídeo com loggings são mais adequadas.  É necessário coletar e analisar protocolos, selecionando medidas de performance relevantes, em geral revendo a fita várias vezes.  Essa atividade consome tempo de análise numa proporção de 5 para 1 em relação ao tempo de registro.  O desenvolvimento de ferramentas, para análise de vídeo baseada em computador, já aparece na literatura em caráter experimental (Suchman e Trigg, 1995; Preece et al., 1994).",
         ref01: "https://www.passeidireto.com/arquivo/2818147/design-e-avaliacao-de-interfaces-humano-computador",
+      },
+      rapidaesuja:{
+        p1: "“Rápida e suja” é um método de avaliação em técnica de observação, realmente bem mais rápidas que as demais.",
+        p2: "Consiste em pouco planejamento, geralmente acontece o tempo inteiro, “Rápida e suja” descreve a prática que os designers utilizam informalmente para obter um feedback dos usuários. mas o entrevistador deve realmente se concentrar para observar como o usuário irá interagir.",
+        p3: "Esse método consiste em alguns passos fundamentais, sempre executados de maneira simples e rápida:",
+        p4: "Não interferir no teste",
+        p5: "O entrevistador não pode ajudar/auxiliar de maneira alguma quem está sendo observado, para que cada interação seja de fato genuína.",
+        p6: "Marcar o tempo inicial",
+        p7: "Caso exista algum limite de tempo, o entrevistador deverá marcar quanto tempo o usuário demorou para realizar as interações com a aplicação.",
+        p8: "Anotar pontos de dificuldade",
+        p9: "É de extrema importância observar onde o usuário está tendo dificuldades na interação e anotar com clareza quais são esses pontos, para que dessa forma, caso haja necessidade, a aplicação pode ser alterada facilitando esses fluxos.",
+        p10: "Anotar o caminho percorrido",
+        p11: "O usuário não terá nenhuma ou pouca informação prévia (seguindo o princípio de que o entrevistador não deve interferir no teste), dessa forma, o entrevistador deverá anotar todo o caminho percorrido para verificar se os fluxos que ele pretendia que o usuário percorresse foram executados com a fluidez esperada.",
+        p12: "Anotar as sugestões do participante",
+        p13: "O usuário será o cliente final, se algo está incomodando-o, deve ser levado em consideração e no mínimo o entrevistador deve avaliar e se possível melhorar as alterações propostas.",
+        p14: "Anotar se a tarefa foi realizada com sucesso ou não",
+        p15: "O entrevistador deverá ao final do teste, para entender se a aplicação cumpriu o seu propósito, anotar se o usuário conseguiu ou não realizar a tarefa com sucesso.",
+        p16: "Anotar frases/depoimentos que exemplifiquem algo importante",
+        p17: "Durante a avaliação, caso o entrevistador entenda que algo que foi dito pelo usuário exemplifica algum fluxo, ou alguma alteração por exemplo, deve-se ser levado em consideração e anotado.",
+        p18: "Anotar o tempo final",
+        p19: "Mesmo que não haja um limite de tempo, é interessante que o entrevistador anota o tempo final que o usuário levou para conseguir completar a tarefa e depois entender se aquele tempo realmente é o ideal. ",
+        p20: "Após realizar esses passos simples, “rápido e sujo” o entrevistador terá em mãos uma massa de informações relevantes para entender se sua aplicação está seguindo como deveria.",
       }
     }
   }
