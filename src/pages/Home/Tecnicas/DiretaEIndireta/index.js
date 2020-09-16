@@ -23,7 +23,7 @@ function DiretaEIndireta() {
         <Video video="https://www.youtube.com/embed/g3OXeHmLz4c" finish={() => setIsOpen(false)} />
       </Modal>
       <Modal title="Exemplo01" isOpen={isOpen02} toggle={() => setIsOpen02(!isOpen02)}>
-        <Video video="https://clipchamp.com/watch/SEVOxHIrYeb/embed" finish={() => setIsOpen02(false)} />
+        <Video video="https://clipchamp.com/watch/r9IfG6at1Ss" finish={() => setIsOpen02(false)} />
       </Modal>
       <Header title={translate('menu.diretaEIndireta')} />
       <Container>
