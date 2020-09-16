@@ -1,6 +1,8 @@
+import { Media, Col, Row } from 'reactstrap'
+
 import styled from 'styled-components'
+
 import { colors } from '../../../../themes'
-import { Media, Col, Row  } from 'reactstrap'
 
 export const Container = styled.div`
   padding-left: 300px;

@@ -16,8 +16,7 @@ function Referencias() {
           <Title>{translate('menu.rapidaESuja')}</Title>
           <Text>{translate('pages.Referencias.rf02')}</Text>
           <Text>{translate('pages.Referencias.rf03')}</Text>
-         
-          
+
         </Card>
       </Container>
     </>

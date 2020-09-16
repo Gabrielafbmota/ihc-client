@@ -8,8 +8,7 @@ function VozAlta() {
   return (
     <>
       <Header title={translate('menu.vozAlta')} />
-      <Container>
-      </Container>
+      <Container />
     </>
 
   )

@@ -1,6 +1,8 @@
+import { Media, Col, Row } from 'reactstrap'
+
 import styled from 'styled-components'
+
 import { colors } from '../../../../themes'
-import { Media, Col, Row  } from 'reactstrap'
 
 export const Container = styled.div`
   padding-left: 300px;
@@ -34,4 +36,15 @@ export const ImgContainer = styled(Row)`
   padding-top: 30px;
   position: relative;
   left: -15%;
+`
+
+export const VideoContent = styled(Col)`
+position: relative;
+left: -11%;
+padding-left: 30px;
+justify-content: space-between;
+
+`
+export const VideoContainer = styled(Row)`
+  justify-content: space-between;
 `

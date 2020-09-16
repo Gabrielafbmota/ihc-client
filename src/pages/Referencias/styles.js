@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+
 import { colors } from '../../themes'
 
 export const Container = styled.div`
@@ -19,7 +20,6 @@ export const Title = styled.h3`
   padding: 10px 15px 0px 15px;
   color: ${colors.SECONDARY};
 `
-
 
 export const Text = styled.a`
   font-size: 18px;

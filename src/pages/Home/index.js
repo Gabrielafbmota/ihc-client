@@ -1,14 +1,13 @@
 import React, { useState } from 'react'
 
-
 import { translate } from '../../locales'
+import Referencias from '../Referencias'
 import Main from './Main'
 import { Container, Navs, ItemLink, Item } from './styles'
 import DiretaEIndireta from './Tecnicas/DiretaEIndireta'
-
 import RapidaESuja from './Tecnicas/RapidaESuja'
 import VozAlta from './Tecnicas/VozAlta'
-import Referencias from '../Referencias'
+
 function Home() {
   const [home, setHome] = useState(true)
   const [direta, setDireta] = useState(false)
@@ -29,7 +28,7 @@ function Home() {
       setRapidaESuja(true)
     } else if (eventKey === 'emVozAlta') {
       setVozAlta(true)
-    } else if(eventKey === 'referencias'){
+    } else if (eventKey === 'referencias') {
       setReferencias(true)
     } else {
       setHome(false)

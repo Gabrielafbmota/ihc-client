@@ -4,11 +4,10 @@ import { useSelector } from 'react-redux'
 import i18n from 'i18next'
 
 import { selectors } from '../store/modules/config/actions'
-
 import ptBR from './pt-BR'
 
 export const languages = [
- 'pt-BR',
+  'pt-BR',
 ]
 
 export default function Internationalization() {
@@ -16,10 +15,7 @@ export default function Internationalization() {
   i18n
     .use(initReactI18next)
     .init({
-      resources: {
-        
-        'pt-BR': { translation: ptBR },
-      },
+      resources: { 'pt-BR': { translation: ptBR } },
       lng: language || navigator.language,
       fallbackLng: 'pt-BR',
 
