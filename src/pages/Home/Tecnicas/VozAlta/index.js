@@ -7,7 +7,6 @@ import Image08 from '../../../../images/08.png'
 import Image09 from '../../../../images/09.jpg'
 import Image10 from '../../../../images/10.png'
 import Image11 from '../../../../images/11.jpg'
-import Image12 from '../../../../images/12.jpg'
 import Image13 from '../../../../images/13.png'
 import Image14 from '../../../../images/14.jpg'
 import Image15 from '../../../../images/15.png'
@@ -45,18 +44,25 @@ export default function VozAlta() {
             </Img>
           </ImgContent>
           <Text />
+          <Text>
+            ------------------------------------------------------------------------------------------------
+          </Text>
           <ImgContent>
             <Img left bottom href="">
               <Img object src={Image09} alt={translate('menu.vozAlta')} />
             </Img>
           </ImgContent>
           <Text />
+
           <ImgContent>
             <Img left bottom href="">
               <Img object src={Image10} alt={translate('menu.vozAlta')} />
             </Img>
           </ImgContent>
           <Text />
+          <Text>
+            ------------------------------------------------------------------------------------------------
+          </Text>
           <ImgContent>
             <Img left bottom href="">
               <Img object src={Image11} alt={translate('menu.vozAlta')} />
@@ -70,6 +76,9 @@ export default function VozAlta() {
             </Img>
           </ImgContent>
           <Text />
+          <Text>
+            ------------------------------------------------------------------------------------------------
+          </Text>
           <ImgContent>
             <Img left bottom href="">
               <Img object src={Image14} alt={translate('menu.vozAlta')} />
@@ -82,6 +91,9 @@ export default function VozAlta() {
             </Img>
           </ImgContent>
           <Text />
+          <Text>
+            ------------------------------------------------------------------------------------------------
+          </Text>
           <ImgContent>
             <Img left bottom href="">
               <Img object src={Image16} alt={translate('menu.vozAlta')} />
@@ -94,7 +106,11 @@ export default function VozAlta() {
             </Img>
           </ImgContent>
           <Text />
+          <Text>
+            ------------------------------------------------------------------------------------------------
+          </Text>
           <Text>{translate('pages.Techs.vozAlta.p5')}</Text>
+          <Text />
         </Card>
       </Container>
     </>
