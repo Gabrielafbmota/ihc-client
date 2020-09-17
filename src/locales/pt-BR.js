@@ -4,7 +4,7 @@ export default {
     tecnicas: 'Técnica de Observação do Usuário',
     home: 'Home',
     diretaEIndireta: 'Direta e Indireta',
-    vozAlta: 'Em Voz Alta',
+    vozAlta: 'Pensar em Em Voz Alta',
     rapidaESuja: 'Rápida e Suja',
     referencias: 'Referências',
   },
@@ -13,8 +13,17 @@ export default {
       rf01: 'https://www.passeidireto.com/arquivo/2818147/design-e-avaliacao-de-interfaces-humano-computador',
       rf02: 'http://www.dainf.ct.utfpr.edu.br/~pelisson/ihm/capitulo11.ppt',
       rf03: 'https://docente.ifrn.edu.br/daniellefreitas/disciplinas/ihc/aulas/avaliacaoempirica.pdf',
+      rf04: 'https://www.teses.usp.br/teses/disponiveis/55/55134/tde-06122007-123935/publico/Anapaula.pdf',
+      rf05: 'http://www.nutes.ufrj.br/abrapec/vienpec/CR2/p1083.pdf',
     },
     Techs: {
+      vozAlta: {
+        p1: 'Um modo simples para obter informação sobre o uso real de um sistema é observar a interação dos usuários com ele. Na técnica observacional, os usuários são solicitados a completar uma série de tarefas pré-determinadas, que podem ser aplicadas no seu próprio local de trabalho, enquanto são observados cumprindo por completo as suas obrigações rotineiras. A função do avaliador é observar os usuários, prestando atenção em suas ações e registrando-as. Apesar da ideia de observar eventos parecer muito fácil, nem sempre o que o observador pensa que parece estar acontecendo é o que realmente está ocorrendo. Uma simples observação pode não ser suficiente para determinar se o sistema corresponde às necessidades dos usuários, pois nem sempre é possível perceber suas atitudes e perspicácia no processo de decisão [Dix-2004].',
+        p2: 'Tendo isso em mente uma técnica de observação útil para saber como está sendo o desempenho do usuário é a de “pensar em voz alta” ou think aloud. Essa técnica se trata da verbalização das ações do usuário, enquanto desempenham ações no sistema que está sendo experimentado. Durante a observação o usuário deve descrever o que ele acha que está acontecendo, o que o levou a escolher algumas ações e o que ele está tentando fazer. ',
+        p3: 'O think aloud é uma técnica muito simples, requer pouca experiência para realizar e pode prover soluções úteis acerca dos problemas com a interface. No entanto, a informação provida é freqüentemente subjetiva, pois depende especificamente das tarefas selecionadas. ',
+        p4: 'Segue abaixo um modelo breve de como essa técnica é aplicada. OBS: Imagine que as descrições são na verdade falas do usuário, enquanto realiza ações no sistema.',
+        p5: 'Além de ajudar o moderador durante a análise, o think aloud também tem a pretensão de  iluminar o pensamento do usuário durante o desempenho da tarefa, pois segundo Ericsson e Simon o “pensar em voz alta” não altera o desempenho do sujeito, porque não requer processos cognitivos adicionais além daqueles mobilizados na resolução do problema. Sendo assim é benéfico para ambos, fator que torna essa técnica tão conveniente. ',
+      },
       diretaindireta: {
         p1: 'Usuários individualmente podem ser observados diretamente, fazendo seu trabalho normal ou tarefas específicas para a situação de observação.  O observador, então, toma notas de comportamentos interessantes ou registra seu comportamento de outras maneiras, por exemplo, medindo o tempo de realização de sequências de ações.',
         p2: 'A observação direta é considerada o método de observação mais invasivo, uma vez que o usuário fica o tempo todo consciente de que está sendo observado por outra pessoa e sua performance está sendo monitorada.  Como efeitos pode haver alteração no comportamento e no nível de performance desse usuário.  Essa alteração tanto pode desfavorecer quanto favorecer os resultados de uso do sistema ou artefato. Como favoreceria?   Alguns usuários podem ter sua performance na tarefa melhorada, não propriamente pelos benefícios do uso do sistema, mas também por se sentirem “valorizados” ao receberem maior atenção de outros (observadores no caso).  Esse fenômeno é conhecido como “efeito Hawtorne”.',
